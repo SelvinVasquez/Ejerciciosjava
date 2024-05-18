@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Impar {
-    public void mostrarImpares(int numero) {
+    public void mostrarImparess(int numero) {
         int i = 1;
         while (i <= numero) {
             if (i % 2 != 0) {
@@ -27,6 +27,6 @@ public class While {
         }
         Impar impar = new Impar();
         System.out.println("Los números impares desde 1 hasta " + numero + " son:");
-        impar.mostrarImpares(numero);
+        impar.mostrarImparess(numero);
     }
 }

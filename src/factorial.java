@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class calcularFactorial {
-    public long calcularFactorial(int numero) {
+    public long calcularFactoriala(int numero) {
         long factorial = 1;
         int i = numero;
         while (i > 1) {
@@ -17,7 +17,7 @@ public class factorial {
         System.out.print("Ingrese un número entero: ");
         int numero = scanner.nextInt();
         calcularFactorial factorial = new calcularFactorial();
-        long resultado = factorial.calcularFactorial(numero);
+        long resultado = factorial.calcularFactoriala(numero);
         System.out.println("El factorial de " + numero + " es: " + resultado);
     }
 }

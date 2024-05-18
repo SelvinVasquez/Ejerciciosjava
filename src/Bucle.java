@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Impares {
-    public void mostrarImpar(int numero) {
+    public void mostrarImpart(int numero) {
         for (int i = 1; i <= numero; i++) {
             if (i % 2 != 0) {
                 System.out.print(i + " ");
@@ -26,6 +26,6 @@ public class Bucle {
         }
         Impares impares = new Impares();
         System.out.println("Los números impares desde 1 hasta " + numero + " son:");
-        impares.mostrarImpar(numero);
+        impares.mostrarImpart(numero);
     }
 }
